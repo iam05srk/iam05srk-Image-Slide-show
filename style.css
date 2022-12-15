@@ -21,7 +21,6 @@ body{
     height: 100%;
 
     animation: animate 10s linear infinite;
-    animation-delay: 2s;
 }
 .container .slider .slide{
     position: relative;
@@ -93,9 +92,13 @@ body{
     {
         left: 0;
     }
+    10%
+    {
+        left: 0;
+    }
     20%
     {
-        left: -50%
+        left: -100%
     }
     30%
     {
@@ -129,6 +132,7 @@ body{
     {
         left: -400%;
     }
+    
 
 }
 @media (max-width: 768px){
